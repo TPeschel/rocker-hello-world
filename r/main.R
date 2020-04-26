@@ -3,5 +3,5 @@ d <- data.frame(
 	 y = rnorm( 100 ),
 	 z = runif( 100 ) )
 
-write.csv( d, file = "../outputGlobal/data.csv" )
+write.csv( d, file = "/opt/outputGlobal/data.csv" )
 

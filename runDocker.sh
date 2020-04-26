@@ -1,3 +1,3 @@
 mkdir -p input outputLocal outputGlobal
 
-docker run -v r:r -v input:/home/r/input -v outputLocal:/home/r/outputLocal -v outputGlobal:/home/r/outputGlobal rocker-hello-world
+docker run -v r:/opt/r -v input:/opt/input -v outputLocal:/opt/outputLocal -v outputGlobal:/opt/outputGlobal rocker-hello-world
